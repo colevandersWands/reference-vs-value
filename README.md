@@ -1,4 +1,4 @@
-## Storing by Reference vs. Value
+## Storing by [Reference vs. Value](https://gist.github.com/colevandersWands/bb2ed4c61ba29c4b93ed7214797ecf60)  
 
 * "Object" is a confusing word in JS.  It can have two different meanings:
   1. Anything that isn't a primitive (arrays, functions, objects. for now).  This is because of how JavaScript handles inheritance and types behind the scenes.  Take our word for it right now, you'll learn how it works later on.
