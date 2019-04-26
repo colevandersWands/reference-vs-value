@@ -3,7 +3,7 @@
 * "Object" is a confusing word in JS.  It can have two different meanings:
   1. Anything that isn't a primitive (arrays, functions, objects. for now).  This is because of how JavaScript handles inheritance and types behind the scenes.  Take our word for it right now, you'll learn how it works later on.
   2. The data structure defined by curly braces: {property: "value"};
-* [Primitives vs Objects](https://codeburst.io/javascript-data-types-explained-347555cd2d4d)
+* [Primitives vs Objects](https://www.youtube.com/watch?v=9ooYYRLdg_g)
 * Storing by value:
   * Variables that are assigned primitive values directly store a copy of that value.
   * Modifying a variable's primitive value does not effect memory anywhere else in the program.
