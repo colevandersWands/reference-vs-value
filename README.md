@@ -8,7 +8,7 @@
   * Variables that are assigned primitive values directly store a copy of that value.
   * Modifying a variable's primitive value does not effect memory anywhere else in the program.
 * Storing by reference:
-  * Variables that are assigned object values (functions, arrays, objects) do not store their own copy of that object. They store a pointer to where that object lives in memory.
+  * Variables that are assigned object values (functions, arrays, objects) do not store their own copy of that object. They store a reference to where that object lives in memory.
   * Modifying a variable that points to an object will immediately effect any other variable pointing to that same object.
 * Side Effects:  When making a change to one piece of your program causes changes somewhere else.  We see this with the two variables __reference\_1__ and __reference\_2__.
 * Garbage collecting.  If no variables are pointing to an object in memory, that object is __un-reachable__ and will be deleted from memory.
